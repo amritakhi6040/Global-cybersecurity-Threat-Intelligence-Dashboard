@@ -1,156 +1,162 @@
-**Global Cybersecurity Threat Intelligence Dashboard**
+# 🛡️ Global Cybersecurity Threat Intelligence Dashboard
 
-Project Overview
+> An interactive Power BI dashboard analyzing global cybersecurity incidents from **2015 to 2024** — transforming raw threat data into actionable intelligence.
 
-This project presents a Global Cybersecurity Threat Intelligence Dashboard developed using Power BI to analyze cybersecurity incidents from 2015 to 2024. The objective of the project is to transform raw cybersecurity data into meaningful insights and visualize global cyber attack trends across different countries and industries.
+---
 
-The dashboard helps in understanding patterns in cyber attacks, financial losses caused by cybersecurity incidents, and the industries most affected by these threats.
+## 📌 Table of Contents
 
-Objectives
+- [Overview](#overview)
+- [Objectives](#objectives)
+- [Tools & Technologies](#tools--technologies)
+- [Dataset Description](#dataset-description)
+- [Dashboard Features](#dashboard-features)
+- [Key Insights](#key-insights)
+- [Learning Outcomes](#learning-outcomes)
+- [Future Improvements](#future-improvements)
+- [References](#references)
+- [Acknowledgements](#acknowledgements)
+- [Author](#author)
 
-The main objectives of this project are:
+---
 
-Analyze global cybersecurity attack trends over multiple years
+## Overview
 
-Identify the industries most affected by cyber attacks
+Cybersecurity threats are evolving at an unprecedented pace, making it critical for organizations to understand attack patterns, vulnerable industries, and financial consequences. This project presents a **Global Cybersecurity Threat Intelligence Dashboard** built with **Power BI**, designed to visualize and explore cybersecurity incident data collected over a decade (2015–2024).
 
-Examine financial losses caused by different cyber threats
+The dashboard enables analysts, researchers, and decision-makers to:
+- Monitor global attack trends over time
+- Identify which industries and countries are most at risk
+- Assess the financial damage caused by different attack types
 
-Visualize the distribution of cyber attacks across countries
+---
 
-Understand the impact of cyber attacks on affected users
+## Objectives
 
-Develop an interactive dashboard for cybersecurity analysis
+| # | Objective |
+|---|-----------|
+| 1 | Analyze global cybersecurity attack trends across multiple years |
+| 2 | Identify the industries most frequently targeted by cyber threats |
+| 3 | Examine financial losses caused by different categories of cyber attacks |
+| 4 | Visualize the geographic distribution of incidents worldwide |
+| 5 | Understand the scale of impact in terms of affected users |
+| 6 | Deliver an interactive, filterable dashboard for dynamic exploration |
 
-Tools & Technologies Used
+---
 
-Power BI – Data visualization and dashboard creation
+## Tools & Technologies
 
-Dataset – Global Cybersecurity Threats Dataset (2015–2024)
+| Tool | Purpose |
+|------|---------|
+| **Power BI** | Data visualization and dashboard development |
+| **Global Cybersecurity Threats Dataset (2015–2024)** | Primary data source |
+| **DAX & Power Query** | Data transformation, aggregation, and filtering |
 
-Data Analysis – Aggregation, filtering, and visual exploration
+---
 
-Dataset Description
+## Dataset Description
 
-The dataset contains cybersecurity threat information collected over several years. Key attributes include:
+The dataset captures cybersecurity threat records spanning 10 years across multiple countries and industries.
 
-Year of cyber attack
+**Key attributes include:**
 
-Country affected
+- `Year` — Year the incident occurred
+- `Country` — Nation affected by the attack
+- `Target Industry` — Sector that was targeted (e.g., Finance, Healthcare, Technology)
+- `Attack Type` — Classification of the cyber threat (e.g., Ransomware, Phishing, DDoS)
+- `Financial Loss (USD Million)` — Estimated monetary damage
+- `Affected Users` — Number of individuals impacted
+- `Incident Resolution Time` — Time taken to resolve the incident
 
-Target industry
+---
 
-Attack type
+## Dashboard Features
 
-Financial loss (in million USD)
+The dashboard is organized across **two pages**, each focusing on a different analytical perspective.
 
-Number of affected users
+### 📊 Page 1 — Cyber Attack Analytics
 
-Incident resolution time
+| Visualization | Description |
+|--------------|-------------|
+| **Financial Loss Trend by Year** | Line/bar chart showing how total losses evolved over 2015–2024 |
+| **Affected Users by Industry** | Highlights which sectors suffered the greatest user impact |
+| **Cyber Attack Type Distribution** | Breakdown of attack frequency by category |
+| **Financial Loss by Attack Type** | Compares economic damage across different threat vectors |
+| **Avg. Resolution Time by Industry** | Reveals which sectors respond fastest or slowest to incidents |
 
-This data is used to analyze trends and visualize cybersecurity threats globally.
+### 🌍 Page 2 — Global Cyber Threat Overview
 
-Dashboard Features
+| Visualization | Description |
+|--------------|-------------|
+| **Global Cyber Attack Map** | World map showing the geographic spread of incidents |
+| **Financial Loss by Country** | Comparative bar chart of economic impact by nation |
+| **Attack Type Distribution by Country** | Breaks down threat categories per country |
 
-The Power BI dashboard includes multiple visualizations such as:
+### 🔧 Interactive Controls
 
-Cyber Attack Trend Analysis – Yearly trend of financial losses caused by cyber attacks
+- **Year Slicer** — Filter all visuals dynamically by year range
+- **Cross-filtering** — Click any chart element to drill into related visuals across the page
 
-Industry Impact Analysis – Number of affected users by target industry
+---
 
-Attack Type Distribution – Frequency of different cyber attack types
+## Key Insights
 
-Global Cyber Threat Map – Geographic distribution of cyber attacks
+- 📈 **Rising Threat Volume** — Cyber attacks have increased significantly in both frequency and financial impact over the decade.
+- 🏥 **High-Risk Industries** — Finance, Healthcare, and Technology consistently rank among the most targeted sectors.
+- 🌐 **Geographic Disparity** — Financial losses vary widely across countries, with certain nations disproportionately affected.
+- ⚖️ **Attack Type vs. Damage** — Some attack types are frequent but low-impact, while others (e.g., ransomware) cause severe economic damage despite lower occurrence rates.
+- 🕐 **Resolution Gaps** — Incident resolution time differs notably by industry, suggesting varying levels of cybersecurity maturity.
 
-Financial Loss by Country – Comparison of economic impact across countries
+---
 
-Interactive Filters – Year-based slicer for dynamic analysis
+## Learning Outcomes
 
-Dashboard Pages
-Page 1 – Cyber Attack Analytics
+Through this project, the following skills and competencies were developed:
 
-Financial Loss Trend by Year
+- Designing multi-page interactive dashboards in Power BI
+- Transforming and modeling raw cybersecurity datasets using Power Query and DAX
+- Applying data storytelling principles to communicate complex security trends visually
+- Analyzing real-world threat intelligence data for pattern discovery
+- Building user-friendly dashboards with slicers, drill-throughs, and cross-filtering
 
-Affected Users by Industry
+---
 
-Cyber Attack Type Distribution
+## Future Improvements
 
-Financial Loss by Attack Type
+| Enhancement | Description |
+|-------------|-------------|
+| **Real-Time Data Integration** | Connect to live threat intelligence feeds for up-to-date monitoring |
+| **Predictive Analytics** | Incorporate machine learning models to forecast attack trends |
+| **Cloud Deployment** | Publish to Power BI Service for web-based access and sharing |
+| **Automated Alerts** | Set up data-driven alerts for high-risk threat thresholds |
+| **Drill-Through Reports** | Enable deeper exploration at the country and industry level |
 
-Average Incident Resolution Time by Industry
+---
 
-Page 2 – Global Cyber Threat Overview
+## References
 
-Global Cyber Attack Map
+- 📂 [Global Cybersecurity Threats Dataset — Kaggle](https://www.kaggle.com)
+- 📘 [Microsoft Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
+- 📖 Data Visualization Best Practices — Microsoft & Tableau Guidelines
 
-Financial Loss by Country
+---
 
-Attack Type Distribution by Country
+## Acknowledgements
 
-Key Insights
+This project was completed as part of the **Microsoft Elevate AICTE 4-Week Internship Program**.
 
-Cyber attacks have increased significantly over the years.
+Special thanks to **Vignesh Muthuvelan** for guidance and mentorship throughout the project.
 
-Certain industries such as finance, healthcare, and technology are more frequently targeted.
+---
 
-Financial losses due to cyber threats vary widely across countries.
+## Author
 
-Some attack types occur frequently but cause smaller losses, while others cause severe financial damage.
-
-Project Output
-
-The final output is an interactive Power BI dashboard that allows users to explore cybersecurity trends through visual analytics.
-
-Example insights include:
-
-Global distribution of cyber attacks
-
-Impact of cyber threats across industries
-
-Financial losses caused by different cyber attack types
-
-(Add screenshots of your dashboard here)
-
-Learning Outcomes
-
-Through this project, I gained experience in:
-
-Data visualization and dashboard design
-
-Transforming raw datasets into visual insights
-
-Working with Power BI interactive visualizations
-
-Analyzing cybersecurity datasets for trend discovery
-
-Future Improvements
-
-Possible enhancements include:
-
-Integration of real-time cybersecurity threat data
-
-Predictive analysis using machine learning models
-
-Deployment of the dashboard to Power BI Service for web access
-
-Adding automated alerts for high-risk cyber threats
-
-References
-
-Cybersecurity Dataset – Kaggle
-
-Microsoft Power BI Documentation
-
-Data Visualization Best Practices
-
-Internship Program
-
-This project was completed as part of the Microsoft Elevate AICTE 4-Week Internship Program.
-
-Special thanks to Vignesh Muthuvelan for guidance and mentorship throughout the project.
-
-Author
-
-Your Name
+**[Amritakhi Mohapatra]**
 B.Tech Computer Science Student
-Data Analytics & AI Enthusias
+Data Analytics & AI Enthusiast
+
+
+
+---
+
+*© 2024 | Built with Power BI as part of the Microsoft Elevate AICTE Internship Program*
